@@ -1,0 +1,47 @@
+[   'OBJECTID',
+    'Damage',
+    #'Street Number',
+    #'Street Name',
+    #'Street Type (e.g. road, drive, lane, etc.)',
+    #'Street Suffix (e.g. apt. 23, blding C)',
+    'City',
+    #'State',
+    #'Zip Code',
+    #'CAL FIRE Unit', 1 distinct value
+    # 'County', 1 distinct value
+    #'Community', 94% missing
+    #'Battalion', 1 distinct value
+    #'Incident Name', 1 distinct value
+    #'Incident Number (e.g. CAAEU 123456)',  1 distinct value
+    'Incident Start Date',
+    # 'Hazard Type',  1 distinct value
+    #'If Affected 1-9% - Where did fire start?', # sliding, window, attached fence
+    #'If Affected 1-9% - What started fire?',    # radiant heat, direct flame impingement, embers, other
+    #'Structure Defense Actions Taken',  # unknown, enginer company actions, combination of actions, other
+    'Structure Type',   # Single Family Res Multi Story, Single Family Res Single Story, Utility Misc Structure, Other
+    #'Structure Category',   # single residence, other minor structure, multiple residence, other
+    #'# Units in Structure (if multi unit)',
+    #'# of Damaged Outbuildings < 120 SQFT',
+    #'# of Non Damaged Outbuildings < 120 SQFT',
+    #'Roof Construction',    # asphalt, tile, unknown, other
+    #'Eaves',    # unknown, unenclosed, enclosed, other
+    #'Vent Screen',
+    #'Exterior Siding',
+    #'Window Pane',
+    #'Deck/Porch On Grade',
+    #'Deck/Porch Elevated',
+    #'Patio Cover/Carport Attached to Structure',
+    #'Fence Attached to Structure',
+    # 'Distance - Propane Tank to Structure',
+    # 'Distance - Residence to Utility/Misc Structure &gt; 120 SQFT',
+    # 'Fire Name (Secondary)',
+    # 'APN (parcel)',
+    # 'Assessed Improved Value (parcel)',
+    'Year Built (parcel)',
+    #'Site Address (parcel)',
+    #'GLOBALID',
+    'Latitude',
+    'Longitude',
+    #'x',
+    #'y',
+    'geometry']
